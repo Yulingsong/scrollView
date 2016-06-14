@@ -65,9 +65,9 @@
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDuration:0.3];
     
-    [UIView setAnimationDelegate:self];//代理
-    [UIView setAnimationDidStopSelector:@selector(stop)];
-    [UIView setAnimationWillStartSelector:@selector(start)];
+//    [UIView setAnimationDelegate:self];//代理
+//    [UIView setAnimationDidStopSelector:@selector(stop)];
+//    [UIView setAnimationWillStartSelector:@selector(start)];
     
     CGFloat offsetX = self.scrollView.contentSize.width - self.scrollView.frame.size.width;
     self.scrollView.contentOffset = CGPointMake(offsetX , self.scrollView.contentOffset.y);
